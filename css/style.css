@@ -6,44 +6,134 @@
 
 @font-face {
     font-family: "Heavy Data";
-    src: url(./fonts/heavy_data.ttf) format('truetype');
+    src: url(../fonts/heavy_data.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Roboto Regular";
-    src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+    src: url(../fonts/Roboto-Regular.ttf) format('truetype');
 }
 
 @font-face {
     font-family: "Pixel12x10";
-    src: url(./fonts/Pixel12x10.ttf) format('truetype');
+    src: url(../fonts/Pixel12x10.ttf) format('truetype');
 }
 
+@media only screen and (max-width: 600px) {
+    header {
+      font-size: 1rem;
+    }
+    .wrapper {
+        padding-top: 100px;
+    }
+  }
+
 body {
+    overflow-x: hidden;
     background-color: black;
 }
 
+html{
+    margin-top:0;
+    padding-top:0;
+    font-size:16px;
+}
+body{
+    margin-top:0;
+    padding-top:0;
+}
+
 main {
-    width: 80%;
-    margin: 0 auto;
-    color: white;
-    font-family: "Roboto Regular";
-    font-size: 15px;
+
+  margin: 0 auto;  
+  width: 80%;
+  display: block;
+  top: 0;
+  
+  
+}
+
+header {
+    background-color: white;
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    font-family: "Pixel12x10";
+    font-size: 3rem;
+    font-weight: 400;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    
 }
 
 h1 {
     font-family: "Pixel12x10";
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 400;
+    color: white;
 }
 
 h2 {
     font-family: "Heavy Data";
-    font-size: 36;
+    font-size: 30px;
     font-weight: 400px;
+    color: white;
 }
 
 
-.text-styles p {
-    font-family: "Roboto Regular";
+
+.full-bleed {
+    width: 100vw;
+  margin-left: 50%;
+  transform: translateX(-50%);
+    z-index: 11;
+  }
+
+.full-bleed img {
+   
+    width: 100%;
+    z-index: 11;
+    
+    
+
 }
+
+#top-image {
+ 
+}
+  
+.wrapper {
+display: flex;
+position: relative;
+align-items: center;
+justify-content:center;
+object-fit: cover;
+
+
+ }
+
+ #dev-text {
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+ }
+
+
+
+
+ #dev-text p {
+    font-family: "Roboto Regular", sans-serif;
+    color: white;
+    line-height: 1.6;
+
+    
+    
+}
+  
+
