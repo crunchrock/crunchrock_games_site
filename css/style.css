@@ -1,0 +1,49 @@
+/* Styles by CrunchRock 2021 */
+
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Heavy Data";
+    src: url(./fonts/heavy_data.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(./fonts/Roboto-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Pixel12x10";
+    src: url(./fonts/Pixel12x10.ttf) format('truetype');
+}
+
+body {
+    background-color: black;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-family: "Roboto Regular";
+    font-size: 15px;
+}
+
+h1 {
+    font-family: "Pixel12x10";
+    font-size: 48px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Heavy Data";
+    font-size: 36;
+    font-weight: 400px;
+}
+
+
+.text-styles p {
+    font-family: "Roboto Regular";
+}

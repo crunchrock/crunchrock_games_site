@@ -1,0 +1,23 @@
+portfolio site
+githup page
+Crunches.Rocks
+theme is pixel art, code, retro games, cyberpunk
+colors: black darkslateblue? deeppink?
+
+home page- hi im crunch, full-stack developer
+<header-sticky-retro pixel theme ala moonana>
+<full bleed photo pixelart>
+<h1>
+</header>
+
+<development section, i offer full stack consulting as a freelancer specializing in Modern JavaScript, CSS and HTML5. Working with appropriate frameworks like React, Bootstrap and [insert] I will build you a fast and responsive application or website that looks great and provides an intuitive experience for your customers. On the backend I am comfortable building and maintaining robust databases and hosting solutions to power your applications and sites. I love making games with Phaser3, RenJS and Unity. My greatest assets are my open-minded approach to solving problems and the personal pride I take in sending my clients excellent deliverables.>
+(small contact button on the side, sticky that you click to open a form that will send me an email address and note>
+<pixel art - portfolio>
+pic
+<Cyberwhiskey: Prologue Coming Soon, ScreenShotSlider>
+<CyberWhiskey: 2054, a Unity Retro Adventure CyberPunk RPG, Alpha late 2020 Early Access Coming 2021>
+<Patreon Coming Soon>
+<Play Cyberpunk Burger Quest>
+<footer with copyright, twitter, discord and github links >
+
+
