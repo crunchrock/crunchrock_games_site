@@ -19,14 +19,6 @@
     src: url(../fonts/Pixel12x10.ttf) format('truetype');
 }
 
-@media only screen and (max-width: 600px) {
-    header {
-      font-size: 1rem;
-    }
-    .wrapper {
-        padding-top: 100px;
-    }
-  }
 
 body {
     overflow-x: hidden;
@@ -41,6 +33,11 @@ html{
 body{
     margin-top:0;
     padding-top:0;
+}
+
+p {
+    font-family: "Roboto Regular", sans-serif;
+    color: white;
 }
 
 main {
@@ -98,23 +95,14 @@ h2 {
    
     width: 100%;
     z-index: 11;
-    
-    
-
 }
 
-#top-image {
- 
-}
-  
 .wrapper {
 display: flex;
 position: relative;
 align-items: center;
 justify-content:center;
 object-fit: cover;
-
-
  }
 
  #dev-text {
@@ -122,18 +110,62 @@ object-fit: cover;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    margin-top: 3%;
  }
-
-
-
 
  #dev-text p {
     font-family: "Roboto Regular", sans-serif;
     color: white;
     line-height: 1.6;
+    margin-bottom: 3%;
 
+}
+
+#pixel-art p {
+    text-align: center;
+    padding: 10px;
+}
+
+.art-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.art-row img {
+    width: 15%;
     
     
 }
-  
 
+.cyber-whiskey-prologue {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+.top-cwp {
+    justify-content: center;
+}
+
+.top-cwp img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.game-area {
+    display: flex;
+    justify-content: center;
+}
+
+.gamebox-bottom-cwp {
+    top: 10px;
+    margin-bottom: 5%;
+}
+
+#cwp-text {
+    text-align: center;
+}
