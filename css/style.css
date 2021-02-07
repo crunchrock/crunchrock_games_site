@@ -19,7 +19,6 @@
     src: url(../fonts/Pixel12x10.ttf) format('truetype');
 }
 
-
 body {
     overflow-x: hidden;
     background-color: black;
@@ -30,6 +29,7 @@ html{
     padding-top:0;
     font-size:16px;
 }
+
 body{
     margin-top:0;
     padding-top:0;
@@ -38,18 +38,23 @@ body{
 p {
     font-family: "Roboto Regular", sans-serif;
     color: white;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: "Pixel12x10";
+    font-size: 16px;
 }
 
 main {
-
-  margin: 0 auto;  
-  width: 80%;
-  display: block;
-  top: 0;
-  
-  
+    margin: 0 auto;  
+    width: 80%;
+    display: block;
+    top: 0;
 }
-
+/*
 header {
     background-color: white;
     width: 100vw;
@@ -57,28 +62,54 @@ header {
     position: fixed;
     z-index: 10;
     top: 0;
-    font-family: "Pixel12x10";
-    font-size: 3rem;
+    font-family: "Pixel12x10", monospace;
+    font-size: 2rem;
     font-weight: 400;
     color: black;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+} */
+
+header {
+    background-image: url("../img/header-bg.png");
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    height: 145px;
+    line-height: 145px;
 
     
 }
 
+header img {
+    margin-top: 0px;
+    
+}
+
+
 h1 {
     font-family: "Pixel12x10";
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
     color: white;
 }
 
 h2 {
-    font-family: "Heavy Data";
-    font-size: 30px;
+    font-family: "Pixel12x10";
+    font-size: 2rem;
     font-weight: 400px;
+    color: white;
+}
+
+h5 {
+    font-family: "Pixel12x10";
     color: white;
 }
 
@@ -86,23 +117,22 @@ h2 {
 
 .full-bleed {
     width: 100vw;
-  margin-left: 50%;
-  transform: translateX(-50%);
+    margin-left: 50%;
+    transform: translateX(-50%);
     z-index: 11;
   }
 
 .full-bleed img {
-   
     width: 100%;
     z-index: 11;
 }
 
 .wrapper {
-display: flex;
-position: relative;
-align-items: center;
-justify-content:center;
-object-fit: cover;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content:center;
+    object-fit: cover;
  }
 
  #dev-text {
@@ -110,7 +140,8 @@ object-fit: cover;
     text-align: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
-    margin-top: 3%;
+    margin-top: 300px;
+    
  }
 
  #dev-text p {
@@ -118,7 +149,6 @@ object-fit: cover;
     color: white;
     line-height: 1.6;
     margin-bottom: 3%;
-
 }
 
 #pixel-art p {
@@ -131,26 +161,29 @@ object-fit: cover;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-
+    
 }
 
 .med-pic {
     width: 12%;
+    
 }
 
 .big-pic {
    width: 20%;
+   
 }
 
 #burger {
-    width: 18%;
+    width: 16%;
+    
 }
 
 .cyber-whiskey-prologue {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     /* background-image: url(../img/banner.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -173,17 +206,56 @@ object-fit: cover;
 
 .gamebox-bottom-cwp {
     top: 10px;
-    margin-top: -4px;
+    margin-top: -3px;
 }
 
 #cwp-text {
     text-align: center;
-    padding-top: 3%;
+    margin-top: 4%;
+}
+
+.cyberpunk-burger-quest {
+    margin: 0 auto;
+    margin-top: 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-content: center;
+    margin-bottom: 5%;
+    
+    
+}
+
+.cyberpunk-burger-quest h2 {
+    margin: 2%;
+}
+
+.cyberpunk-burger-quest p {
+    margin: 2%;
+}
+
+footer {
+    height: 64px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 
+footer h5 {
+    padding-top: 23px;
+    color: white;
+ 
+}
+footer a {
+}
 
-
+footer img {
+    float: right;
+    padding-right: 12px;
+}
 
 
 
