@@ -165,12 +165,12 @@ h5 {
 }
 
 .med-pic {
-    width: 12%;
+    width: 17%;
     
 }
 
 .big-pic {
-   width: 20%;
+   width: 19%;
    
 }
 
@@ -221,9 +221,16 @@ h5 {
     display: flex;
     flex-direction: column;
     width: 60%;
-    align-content: center;
-    margin-bottom: 5%;
+    align-items: center;
+    justify-content: center;
     
+    margin-bottom: 5%;
+
+
+    
+    
+}
+.cyberpunk-burger-quest img {
     
 }
 
@@ -257,7 +264,18 @@ footer img {
     padding-right: 12px;
 }
 
-
+.patreon {
+    margin: 0 auto;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 5%;
+}
 
 
 @media screen and (max-width: 1080px) {
